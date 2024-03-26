@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19b321803d1d734e9bba9e6f2cca050, type: 3}
+  m_Name: NewStory
+  m_EditorClassIdentifier: 
+  storyNumber: 0
+  storyType: 0
+  storyDone: 0
+  storyText: 
+  options:
+  - optionText: "\uACF5\uACA9\uD55C\uB2E4."
+    buttionText: 
+    eventCheck:
+      checkValue: 10
+      eventType: 1000
+      succesResult:
+      - resultType: 2
+        value: 0
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          cuttentHpPoint: 0
+          cuttentSpPoint: 0
+          cuttentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          intelligence: 0
+          wisdom: 0
+          charisma: 0
+      - resultType: 0
+        value: 0
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          cuttentHpPoint: 0
+          cuttentSpPoint: 0
+          cuttentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult:
+      - resultType: 0
+        value: -1
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          cuttentHpPoint: 0
+          cuttentSpPoint: 0
+          cuttentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          intelligence: 0
+          wisdom: 0
+          charisma: 0
+  - optionText: "\uB3C4\uB9DD\uAC04\uB2E4."
+    buttionText: 
+    eventCheck:
+      checkValue: 0
+      eventType: 0
+      succesResult: []
+      failResult: []
